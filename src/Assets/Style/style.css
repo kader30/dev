@@ -1,0 +1,168 @@
+/* cette ligne permet d'importer le font lato */
+@font-face {
+  font-family: "Nunito Sans";
+  src: url(../Fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.woff);
+}
+
+/* cette ligne permet d'importer le font Releway*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: "Nunito Sans" !important;
+}
+
+header {
+  justify-items: center;
+  align-content: center;
+  margin-bottom: 10px;
+}
+
+.navbar-brand {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+footer {
+  background-color: black;
+}
+
+.card-group {
+
+  max-width: 68%;
+  padding: 0.5rem;
+  border: 0px solid black;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px 4px #ede8e8eb;
+}
+
+.card {
+  --bs-card-border-width: 0;
+
+  padding: 8px;
+}
+
+.card-title {
+  padding: 5px;
+}
+
+hr.rounded {
+  border-top: 3px solid #0223fc;
+  border-radius: 5px;
+}
+
+.card-work {
+
+  padding: 0px !important;
+}
+
+.card-work p {
+  font-size: 0.8rem !important;
+}
+
+li {
+  list-style-type: none;
+
+}
+
+.nav-link {
+  filter: brightness(0.8);
+
+}
+
+.nav-link:hover {
+  -webkit-decoration-color: #ffffff;
+  text-decoration: underline;
+  filter: brightness(1.8);
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.nav-link.active {
+
+
+  -webkit-decoration-color: #ffffff;
+  text-decoration: underline;
+  filter: brightness(1.8);
+  font-weight: 600;
+
+
+}
+
+li Link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.image-container {
+
+  height: 90vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  object-fit: cover;
+  background-image: url('../Images/hero-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)),
+}
+
+.section-title {
+  border-bottom: 3px solid #0d6efd;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-bottom: 4px;
+}
+
+.title-underline {
+  width: 130px;
+  height: 5px;
+
+  background-color: #0d6efd;
+  margin-top: 15px;
+}
+
+.active-link {
+  text-decoration: underline;
+
+}
+
+.accordion-button {
+  background-color: #dbe9ff;
+  font-weight: 500;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #cfe2ff;
+  color: #000;
+}
+
+.portfolio-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card:hover {
+  background-color: #efefef;
+  /* plus sombre */
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+footer .bi:hover {
+  background-color: #ffffff;
+  /* plus sombre */
+  transform: translateY(-2px);
+  transition-duration: 4ms;
+}

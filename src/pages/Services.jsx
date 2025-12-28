@@ -1,3 +1,5 @@
+import { Card } from "../Assets/Components/Card.jsx";
+import banner from "../Assets/Images/banner.jpg"
 const Services = () => {
   const  MesServices=[
    {
@@ -26,7 +28,7 @@ const Services = () => {
         <main className="">
             <img srcSet={banner} alt=""  className="w-100" />
             <div className=" justify-content-center">
-            <h2 className="text-center">Mon offre de services</h2>
+            <h2 className="text-center mt-3">Mon offre de services</h2>
             <p className="text-center">Voici les prestations sur laquelle je peut intervenir</p>
             <div className="title-underline mx-auto"></div>
          
