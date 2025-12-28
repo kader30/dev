@@ -1,3 +1,14 @@
+import PortfolioCard from "../Assets/Components/PortfolioCard";
+
+// Images locales
+import banner from "../Assets/Images/banner.jpg"
+import freshFood from "../Assets/Images/portfolio/fresh-food.jpg";
+import akira from "../Assets/Images/portfolio/restaurant-japonais.jpg";
+import bienEtre from "../Assets/Images/portfolio/espace-bien-etre.jpg";
+import seo from "../Assets/Images/portfolio/seo.jpg";
+import maquette from "../Assets/Images/portfolio/screens.jpg";
+import api from "../Assets/Images/portfolio/coder.jpg";
+
 export default function Portfolio() {
   const projects = [
     {
