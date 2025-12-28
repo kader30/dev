@@ -52,7 +52,7 @@ export default function Portfolio() {
   return (
     <>
       {/* Hero */}
-      <header className=""><img src={banner} className="w-100" alt="banner" srcset="" /></header>
+      <header className=""><img srcSet={banner} className="w-100" alt="banner"/></header>
 
       <main className="container my-5">
         {/* Title */}

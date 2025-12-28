@@ -7,7 +7,7 @@ export default function PortfolioCard({
     return (
         <div className="card h-100 card-work m-1">
 
-            <img src={image} className="card-img-top" alt={title} />
+            <img srcSet={image} className="card-img-top" alt={title} />
 
             <div className="card-body text-center">
                 <h5 className="fw-bold">{title}</h5>
