@@ -1,3 +1,46 @@
+# Portfolio – John Doe
+
+Ce projet est un **site portfolio personnel** développé avec **React** et **Bootstrap**.  
+Il présente mon profil, mes compétences, mes services, mes réalisations ainsi qu’un formulaire de contact.
+
+---
+
+## 🛠️ Technologies utilisées
+
+- **React** (bibliothèque JavaScript)
+- **Bootstrap 5** (framework CSS)
+- **React-Bootstrap** (pour les composants comme les modals)
+- **Bootstrap Icons**
+- **HTML5 / CSS3**
+- **JavaScript (ES6+)**
+
+---
+
+## 📁 Fonctionnalités
+
+- Page d’accueil
+- Page Services
+- Page Portfolio avec modals
+- Page Contact avec formulaire et carte
+- Page Mentions légales
+- Design responsive (mobile, tablette, desktop)
+- Composants réutilisables avec `props` et `map()`
+
+---
+
+## ✅ Prérequis
+
+Avant d’installer le projet, vous devez avoir :
+
+- **Node.js** (version 16 ou supérieure)
+- **npm** (installé avec Node.js)
+- Un navigateur web moderne (Chrome, Firefox, Edge…)
+
+Vérifier les versions :
+```bash
+node -v
+npm -v
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
