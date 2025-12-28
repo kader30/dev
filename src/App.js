@@ -6,7 +6,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Portfolio from './pages/Portfolio';
 import MentionsLegales from './pages/MentionsLegales';
-import  NavBar  from './Assets/Components/NavBar';
+import NavBar from "./Assets/Components/Navbar";
 import  Footer  from './Assets/Components/Footer';
 function App() {
   return (

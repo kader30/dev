@@ -1,10 +1,9 @@
-/* cette ligne permet d'importer le font lato */
+/* cette ligne permet d'importer le font Nunito Sans */
 @font-face {
   font-family: "Nunito Sans";
   src: url(../Fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.woff);
 }
 
-/* cette ligne permet d'importer le font Releway*/
 
 html,
 body {
@@ -28,10 +27,6 @@ header {
   padding-right: 15px;
 }
 
-footer {
-  background-color: black;
-}
-
 .card-group {
 
   max-width: 68%;
@@ -44,19 +39,8 @@ footer {
   box-shadow: 4px 4px 4px 4px #ede8e8eb;
 }
 
-.card {
-  --bs-card-border-width: 0;
-
-  padding: 8px;
-}
-
 .card-title {
   padding: 5px;
-}
-
-hr.rounded {
-  border-top: 3px solid #0223fc;
-  border-radius: 5px;
 }
 
 .card-work {
@@ -87,8 +71,6 @@ li {
 }
 
 .nav-link.active {
-
-
   -webkit-decoration-color: #ffffff;
   text-decoration: underline;
   filter: brightness(1.8);
@@ -113,8 +95,7 @@ li Link {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)),
+  
 }
 
 .section-title {
@@ -161,8 +142,13 @@ li Link {
 }
 
 footer .bi:hover {
-  background-color: #ffffff;
-  /* plus sombre */
+  color: #ffffff !important;
   transform: translateY(-2px);
   transition-duration: 4ms;
+  transition: color 0.3s ease;
+}
+
+footer .lien:hover {
+  font-weight: bold;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }

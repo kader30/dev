@@ -89,7 +89,7 @@ export default function MentionsLegales() {
                             <p>
                                 Les images utilisées sur ce site sont libres de droits et ont été obtenus sur le site <a href="http://https://pixabay.com/" target="_blank" rel="noopener noreferrer">Pixabay</a>.
                             </p>
-                            <p>La favicon de ce site a été fournie par <a href="http://" target="_blank" rel="noopener noreferrer">John doe Icons erstellt von
+                            <p>La favicon de ce site a été fournie par <a href="https://www.flaticon.com/de/kostenlose-icons/john-doe" target="_blank" rel="noopener noreferrer">John doe Icons erstellt von
                                 freepik-Flaticon</a></p>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ export default function About() {
             <div className="card shadow p-4">
                 <div className="row">
                     <div className="col-md-6">
-                        <h4 className="section-title">À propos</h4>
+                        <h4 className="section-title"><strong>À propos</strong></h4>
                         <img
                             srcSet={john}
                             className="img-fluid mb-3"
@@ -30,11 +30,11 @@ export default function About() {
                             neque at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
                             neque at?
                         </p>
-                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        <small className="card-text">Last updated 3 mins ago</small>
                     </div>
 
                     <div className="col-md-6">
-                        <h4 className="section-title">Mes compétences</h4>
+                        <h4 className="section-title"><strong>Mes compétences</strong></h4>
 
                         <p>HTML5 90%</p>
                         <div className="progress mb-3">

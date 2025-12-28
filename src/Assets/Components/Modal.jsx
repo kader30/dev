@@ -51,13 +51,10 @@ function GitHubUserInfo({ show, onClose }) {
             <Modal.Body className="d-flex flex-wrap flex-md-nowrap  justify-content-center flex-space-betwen" >
 
                 <div className="justify-content-cener">
-
-
                     <img className="pt-3"
                         srcSet={user.avatar_url}
                         alt={`${user.login} avatar`}
                         width="100%"
-
                     />
                 </div>
                 <div className="mx-auto px-4 ">
@@ -65,13 +62,10 @@ function GitHubUserInfo({ show, onClose }) {
                     <p className="border-bottom border-secondary p-2 mb-1 py-2 ">
                         <i className="bi bi-geo-alt"></i> {user.location}
                     </p>
-
                     <p className="border-bottom border-secondary p-2 mb-1"><i className="bi bi-card-text pe-1 " > </i>{user.bio}</p>
-
                     <p className="border-bottom border-secondary p-2 mb-1">
                         <i className="bi bi-box pe-1"> </i> Repositories : {user.public_repos}
                     </p>
-
 
                     <p className="border-bottom border-secondary p-2 mb-1">
                         <i className="bi bi-people pe-1"></i> Followers : {user.followers}

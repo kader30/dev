@@ -19,13 +19,6 @@ export default function NavBar() {
                     </ul>
                 </div>
             </div>
-
-
-
         </nav>
-
-
-
-
     );
 }
